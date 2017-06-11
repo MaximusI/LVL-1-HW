@@ -11,8 +11,10 @@ public class main {
         double db = 3f/5;
         boolean bl = false;
         char ch = 'A';
-        
+        System.out.println(dz(bt, sh, it, ch));
+    }
 
-
+    public static double dz(int a, int b, int c, int d) {
+        return a * (b + (c / d));
     }
 }
