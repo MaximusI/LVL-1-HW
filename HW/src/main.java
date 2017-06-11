@@ -17,4 +17,10 @@ public class main {
     public static double dz(int a, int b, int c, int d) {
         return a * (b + (c / d));
     }
+
+    public static boolean dvaChisla(long a, long b) {
+        if ((a + b >= 10) && (a + b <= 20))
+            return true;
+        return false;
+    }
 }
